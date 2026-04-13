@@ -1,6 +1,6 @@
 import * as localForage from "localforage";
 import { downloadFile, uploadFile, copy, isClient } from "@renovamen/utils";
-import { DEFAULT_STYLES, DEFAULT_NAME, DEFAULT_MD_CONTENT, DEFAULT_CSS_CONTENT } from ".";
+import { DEFAULT_STYLES, DEFAULT_NAME, DEFAULT_MD_CONTENT, DEFAULT_CSS_CONTENT, VLADIMIR_MD_CONTENT, VLADIMIR_NAME } from ".";
 import type { ResumeStorage, ResumeStorageItem, ResumeStyles } from "~/types";
 
 const MARKDOWN_RESUME_KEY = "MARKDOWN_RESUME_data";
@@ -90,6 +90,28 @@ export const newResume = async () => {
   toast.new();
 
   return id;
+};
+
+/**
+ * Seed the database with a pre-built resume on first visit
+ */
+export const seedResumes = async () => {
+  const storage = await getStorage();
+
+  // Only seed if storage is empty (first visit)
+  if (storage && Object.keys(storage).length > 0) return;
+
+  const id = "vladimir-araujo-cv";
+  const resume = {
+    name: VLADIMIR_NAME,
+    markdown: VLADIMIR_MD_CONTENT,
+    css: DEFAULT_CSS_CONTENT,
+    styles: { ...DEFAULT_STYLES, fontSize: 11 },
+    update: id
+  } as ResumeStorageItem;
+
+  const newStorage: ResumeStorage = { [id]: resume };
+  await localForage.setItem(MARKDOWN_RESUME_KEY, newStorage);
 };
 
 /**

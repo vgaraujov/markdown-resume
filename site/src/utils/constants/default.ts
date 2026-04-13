@@ -116,6 +116,169 @@ Huangdu Institute of Technology
 
 `;
 
+export const VLADIMIR_MD_CONTENT = `---
+---
+
+# Vladimir Araujo
+
+<span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/vgaraujov](https://www.linkedin.com/in/vgaraujov/)
+  : <span class="iconify" data-icon="tabler:mail"></span> [vgaraujov@gmail.com](mailto:vgaraujov@gmail.com)
+  : <span class="iconify" data-icon="charm:person"></span> [vgaraujov.github.io](https://vgaraujov.github.io)
+
+## Education
+
+**Ph.D. in Engineering Sciences**
+  : **Pontificia Universidad Católica de Chile - KU Leuven**
+  : **Aug 2018 - Sep 2023**
+
+- **Field:** Computer Science (Joint Ph.D.) — Supervisors: Dr. Marie-Francine Moens, Dr. Alvaro Soto
+- **Thesis:** Human-inspired Approaches for Natural Language Understanding (Thesis Award - Nominated)
+
+**M.Sc. in Electronics Engineering**
+  : **Pontificia Universidad Javeriana, Colombia**
+  : **Jul 2015 - Aug 2017**
+
+- **Field:** Robotics and Machine Learning (Cum laude)
+- **Thesis:** A Robotic System to Train Working Memory (Best Thesis Award)
+
+**B.Eng. in Electronics Engineering**
+  : **Universidad Politécnica Salesiana, Ecuador**
+  : **Sep 2009 - May 2015**
+
+- **Field:** Automation (Second best graduate)
+- **Project:** Humanoid robot control in 3D space using Kinect sensor
+
+## Experience
+
+**AI Research Scientist**
+  : **Sailplane AI, USA**
+  : **Jul 2024 - Present**
+
+- Developing LLM-based agents for hierarchical planning
+- Implementing pipelines for processing data, training models, and evaluating them
+
+**Postdoctoral Research Associate**
+  : **ESAT-PSI, KU Leuven, Belgium**
+  : **Oct 2023 - Jun 2024**
+
+- Continual learning with foundation models (language and vision)
+- Human-inspired continual learning
+
+**Lecturer (Occasional)**
+  : **Pontificia Universidad Católica, Chile**
+  : **May 2020 - Present**
+
+- Natural Language Processing: Question answering and summarization models
+- Introduction to Video Analysis: Video action recognition based on recurrent networks
+
+**NLP Engineer (Freelance)**
+  : **Multiplex SpA, Chile**
+  : **Oct 2023 - Dec 2023**
+
+- Developed a retrieval augmented generation (RAG) system based on ChatGPT and LlamaIndex
+- Implemented a recurrent/memory approach to mitigate extended input constraints in ChatGPT
+
+**Machine Learning Engineer (Freelance)**
+  : **Theodora AI, Chile**
+  : **Jun 2022 - Apr 2023**
+
+- Implemented bias detection on texts by leveraging pre-trained language models
+- Constructed a synthetic dataset for various biases; deployed a platform for labeling biased text
+
+**Visiting Researcher**
+  : **University of Western Ontario, Canada**
+  : **Jul 2021 - Dec 2021**
+
+- Constructed SentEval and DiscoEval in Spanish to evaluate Spanish language models
+- Improved memory networks for story processing and understanding
+
+**Ph.D. Researcher**
+  : **Millennium Institute Foundational Research on Data (IMFD), Chile**
+  : **Aug 2018 - Jul 2021**
+
+- Fake news and social networks leveraging attention as a method of interpretation
+- Construction of a dataset for controversy based on Chilean social networks
+
+## Funding and Awards
+
+**Travel grant**, Khipu23
+  : 2022
+
+**Google Latin America Research Award (LARA 2021)**
+  : 2022
+
+**ELAP scholarship**, Research exchange at University of Western Ontario Canada
+  : 2021
+
+**ANID scholarship**, Doctoral studies in Chile
+  : 2020
+
+**ACM SIGCHI Gary Marsden travel award**, RecSys19
+  : 2019
+
+**Best Master's Thesis Award**
+  : 2017
+
+**Cum laude distinction**, Master's studies
+  : 2017
+
+**ICETEX scholarship**, Master's studies in Colombia
+  : 2015
+
+## Skills
+
+**Programming:** Python, Java, Matlab, C++
+
+**ML Tools:** PyTorch, TensorFlow (w/ TPU), Scikit-learn
+
+**NLP Tools:** HuggingFace, AdapterHub, spaCy, NLTK, AllenNLP, Llama-index, Langchain, OpenAI API
+
+**Cloud Services:** Google Cloud Platform, Amazon Web Services, Amazon Mechanical Turk
+
+**Languages:** Spanish (Native), English (Fluent)
+
+## Selected Publications
+
+[~P1]: **Learning to Route for Dynamic Adapter Composition in Continual Learning with Language Models**
+
+    <u>Vladimir Araujo</u>, Marie-Francine Moens, Tinne Tuytelaars
+
+    *Findings of EMNLP, 2024*
+
+[~P2]: **Sequence-to-Sequence Spanish Pre-trained Language Models**
+
+    <u>Vladimir Araujo</u>, Maria Mihaela Trusca, Rodrigo Tufiño, Marie-Francine Moens
+
+    *LREC-Coling, 2024*
+
+[~P3]: **A Memory Model for Question Answering from Streaming Data**
+
+    <u>Vladimir Araujo</u>, Alvaro Soto, Marie-Francine Moens
+
+    *Findings of ACL, 2023*
+
+[~P4]: **Entropy-based Stability-Plasticity for Lifelong Learning**
+
+    <u>Vladimir Araujo</u>, Julio Hurtado, Alvaro Soto, Marie-Francine Moens
+
+    *CVPR, 2022*
+
+[~P5]: **ALBETO and DistilBETO: Lightweight Spanish Language Models**
+
+    José Cañete, Sebastián Donoso, Felipe Bravo-Marquez, Andrés Carvallo, <u>Vladimir Araujo</u>
+
+    *LREC, 2022*
+
+[~P6]: **Augmenting BERT-style Models with Predictive Coding to Improve Discourse-level Representations**
+
+    <u>Vladimir Araujo</u>, Andrés Villa, Marcelo Mendoza, Marie-Francine Moens, Alvaro Soto
+
+    *EMNLP, 2021*
+
+`;
+
+export const VLADIMIR_NAME = "Vladimir Araujo - CV";
+
 export const PREVIEW_SELECTOR = "#vue-smart-pages-preview";
 
 export const DEFAULT_CSS_CONTENT = `/* Backbone CSS for Resume Template 1 */

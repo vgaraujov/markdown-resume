@@ -32,5 +32,8 @@ const loadResumes = async () => {
   list.value = await getResumeList();
 };
 
-onMounted(loadResumes);
+onMounted(async () => {
+  await seedResumes();
+  await loadResumes();
+});
 </script>
