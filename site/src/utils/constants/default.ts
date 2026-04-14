@@ -127,22 +127,19 @@ export const VLADIMIR_MD_CONTENT = `---
 
 ## Education
 
-**Ph.D. in Engineering Sciences**
-  : **Pontificia Universidad Católica de Chile - KU Leuven**
+**Ph.D. in Engineering Sciences**, Pontificia Universidad Católica de Chile - KU Leuven
   : **Aug 2018 - Sep 2023**
 
 - **Field:** Computer Science (Joint Ph.D.) — Supervisors: Dr. Marie-Francine Moens, Dr. Alvaro Soto
 - **Thesis:** Human-inspired Approaches for Natural Language Understanding (Thesis Award - Nominated)
 
-**M.Sc. in Electronics Engineering**
-  : **Pontificia Universidad Javeriana, Colombia**
+**M.Sc. in Electronics Engineering**, Pontificia Universidad Javeriana, Colombia
   : **Jul 2015 - Aug 2017**
 
 - **Field:** Robotics and Machine Learning (Cum laude)
 - **Thesis:** A Robotic System to Train Working Memory (Best Thesis Award)
 
-**B.Eng. in Electronics Engineering**
-  : **Universidad Politécnica Salesiana, Ecuador**
+**B.Eng. in Electronics Engineering**, Universidad Politécnica Salesiana, Ecuador
   : **Sep 2009 - May 2015**
 
 - **Field:** Automation (Second best graduate)
@@ -150,50 +147,43 @@ export const VLADIMIR_MD_CONTENT = `---
 
 ## Experience
 
-**AI Research Scientist**
-  : **Sailplane AI, USA**
+**AI Research Scientist**, Sailplane AI, United States
   : **Jul 2024 - Present**
 
 - Developing LLM-based agents for hierarchical planning
 - Implementing pipelines for processing data, training models, and evaluating them
 
-**Postdoctoral Research Associate**
-  : **ESAT-PSI, KU Leuven, Belgium**
+**Postdoctoral Research Associate**, ESAT-PSI, KU Leuven, Belgium
   : **Oct 2023 - Jun 2024**
 
 - Continual learning with foundation models (language and vision)
 - Human-inspired continual learning
 
-**Lecturer (Occasional)**
-  : **Pontificia Universidad Católica, Chile**
+**Lecturer (Occasional)**, Pontificia Universidad Católica, Chile
   : **May 2020 - Present**
 
 - Natural Language Processing: Question answering and summarization models
 - Introduction to Video Analysis: Video action recognition based on recurrent networks
 
-**NLP Engineer (Freelance)**
-  : **Multiplex SpA, Chile**
+**NLP Engineer (Freelance)**, Multiplex SpA, Chile
   : **Oct 2023 - Dec 2023**
 
 - Developed a retrieval augmented generation (RAG) system based on ChatGPT and LlamaIndex
 - Implemented a recurrent/memory approach to mitigate extended input constraints in ChatGPT
 
-**Machine Learning Engineer (Freelance)**
-  : **Theodora AI, Chile**
+**Machine Learning Engineer (Freelance)**, Theodora AI, Chile
   : **Jun 2022 - Apr 2023**
 
 - Implemented bias detection on texts by leveraging pre-trained language models
 - Constructed a synthetic dataset for various biases; deployed a platform for labeling biased text
 
-**Visiting Researcher**
-  : **University of Western Ontario, Canada**
+**Visiting Researcher**, University of Western Ontario, Canada
   : **Jul 2021 - Dec 2021**
 
 - Constructed SentEval and DiscoEval in Spanish to evaluate Spanish language models
 - Improved memory networks for story processing and understanding
 
-**Ph.D. Researcher**
-  : **Millennium Institute Foundational Research on Data (IMFD), Chile**
+**Ph.D. Researcher**, Millennium Institute Foundational Research on Data (IMFD), Chile
   : **Aug 2018 - Jul 2021**
 
 - Fake news and social networks leveraging attention as a method of interpretation
@@ -294,8 +284,7 @@ PhD researcher at IMEC with 4+ years of experience in semiconductor process deve
 
 ## Experience
 
-**Ph.D. Researcher**
-  : **IMEC**
+**Ph.D. Researcher**, IMEC
   : **Sep 2021 - Present**
 
 - Investigated fluorine and chlorine diffusion in MTJ stacks during RIE, clarifying halogens impact during patterning
@@ -305,16 +294,14 @@ PhD researcher at IMEC with 4+ years of experience in semiconductor process deve
 - Characterization: XRR, Ellipsometry, AFM (structural/thickness); ICP-MS, XPS, SIMS, ERD (chemical/elemental); TEM, SEM (morphology); VSM, MOKE (magnetic)
 - Processing: Wet bench, chemical solutions, solvents; 300mm fab tools - dry etch (LAM, TEL), wet etch (SCREEN)
 
-**Teaching and Research Assistant**
-  : **KU Leuven**
+**Teaching and Research Assistant**, KU Leuven
   : **Sep 2021 - Jun 2025**
 
 - Delivered hands-on instruction and troubleshooting support during undergraduate chemistry laboratory sessions
 - Mentored students on experimental methodology, data interpretation, and best laboratory practices
 - Supervised master's and intern students in wet etch studies, including experimental design, execution, and data analysis
 
-**Master Thesis Researcher**
-  : **IMEC**
+**Master Thesis Researcher**, IMEC
   : **Sep 2020 - May 2021**
 
 - Investigated the impact of reduced resist thickness on EUV lithography performance, addressing challenges associated with High-NA scaling
@@ -322,8 +309,7 @@ PhD researcher at IMEC with 4+ years of experience in semiconductor process deve
 - Conducted critical dimension analysis using Fractilia to assess lithographic performance
 - Operated 300 mm spin coating tools (SCREEN) in a cleanroom environment
 
-**Intern**
-  : **IMEC**
+**Intern**, IMEC
   : **Feb 2019 - Jun 2020**
 
 - Investigated the impact of reactant ratios on deposition conformality in FCVD processes
@@ -333,20 +319,20 @@ PhD researcher at IMEC with 4+ years of experience in semiconductor process deve
 
 ## Education
 
-**Ph.D. in Chemistry**
-  : **KU Leuven**
+**Ph.D. in Chemistry**, KU Leuven
+  :
 
 - Material Science for Semiconductor Devices
 - Thesis: Towards Atomic Layer Etching for Magnetic Tunnel Junction Patterning
 
-**Master in Chemistry**
-  : **KU Leuven**
+**Master in Chemistry**, KU Leuven
+  :
 
 - Chemistry | Nanostructured materials
 - Thesis: Impact of Resist Thickness on High NA Extreme Ultraviolet Lithography
 
-**Bachelor in Chemistry**
-  : **Università degli Studi di Genova**
+**Bachelor in Chemistry**, Università degli Studi di Genova
+  :
 
 - Chemistry and Chemical Technologies
 - Thesis: Synthesis of Azetidine Derivatives via Ring Transformation of Nitrothiophenic Compounds
