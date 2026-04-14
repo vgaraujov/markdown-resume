@@ -279,6 +279,88 @@ export const VLADIMIR_MD_CONTENT = `---
 
 export const VLADIMIR_NAME = "Vladimir Araujo - CV";
 
+export const CINZIA_MD_CONTENT = `---
+---
+
+# Cinzia Chan
+
+<span class="iconify" data-icon="tabler:mail"></span> [cinzia.chan96@gmail.com](mailto:cinzia.chan96@gmail.com)
+  : <span class="iconify" data-icon="tabler:phone"></span> [+39 3481258232](tel:+393481258232)
+  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/cinzia-chan](http://linkedin.com/in/cinzia-chan)
+
+## Summary
+
+PhD researcher at IMEC with 4+ years of experience in semiconductor process development, specializing in atomic layer etching (ALE) and magnetic tunnel junction (MTJ) patterning. Hands-on expertise in 300mm cleanroom fabrication, plasma etching, and advanced surface characterization (XRR, Ellipsometry, AFM, ICP-MS, XPS, SIMS, ERD, TEM, and SEM). Proven track record in process optimization, data analysis, and mentoring students.
+
+## Experience
+
+**Ph.D. Researcher**
+  : **IMEC**
+  : **Sep 2021 - Present**
+
+- Investigated fluorine and chlorine diffusion in MTJ stacks during RIE, clarifying halogens impact during patterning
+- Developed a novel XPS-based methodology to characterize MTJ sidewall residues post-IBE
+- Designed and transferred a hybrid dry-wet ALE process for tungsten to a 300 mm fab environment
+- Studied cobalt wet etch kinetics to support process optimization and material selectivity
+- Characterization: XRR, Ellipsometry, AFM (structural/thickness); ICP-MS, XPS, SIMS, ERD (chemical/elemental); TEM, SEM (morphology); VSM, MOKE (magnetic)
+- Processing: Wet bench, chemical solutions, solvents; 300mm fab tools - dry etch (LAM, TEL), wet etch (SCREEN)
+
+**Teaching and Research Assistant**
+  : **KU Leuven**
+  : **Sep 2021 - Jun 2025**
+
+- Delivered hands-on instruction and troubleshooting support during undergraduate chemistry laboratory sessions
+- Mentored students on experimental methodology, data interpretation, and best laboratory practices
+- Supervised master's and intern students in wet etch studies, including experimental design, execution, and data analysis
+
+**Master Thesis Researcher**
+  : **IMEC**
+  : **Sep 2020 - May 2021**
+
+- Investigated the impact of reduced resist thickness on EUV lithography performance, addressing challenges associated with High-NA scaling
+- Performed characterization using SEM, spectroscopic ellipsometry, and mass measurements to evaluate resist thickness and pattern quality
+- Conducted critical dimension analysis using Fractilia to assess lithographic performance
+- Operated 300 mm spin coating tools (SCREEN) in a cleanroom environment
+
+**Intern**
+  : **IMEC**
+  : **Feb 2019 - Jun 2020**
+
+- Investigated the impact of reactant ratios on deposition conformality in FCVD processes
+- Performed statistical analysis of SEM images using Python and ImageJ to quantify film uniformity and morphology
+- Conducted microstructural characterization using SEM
+- Operated 300 mm deposition tools (Applied Materials) in a cleanroom environment
+
+## Education
+
+**Ph.D. in Chemistry**
+  : **KU Leuven**
+
+- Material Science for Semiconductor Devices
+- Thesis: Towards Atomic Layer Etching for Magnetic Tunnel Junction Patterning
+
+**Master in Chemistry**
+  : **KU Leuven**
+
+- Chemistry | Nanostructured materials
+- Thesis: Impact of Resist Thickness on High NA Extreme Ultraviolet Lithography
+
+**Bachelor in Chemistry**
+  : **Università degli Studi di Genova**
+
+- Chemistry and Chemical Technologies
+- Thesis: Synthesis of Azetidine Derivatives via Ring Transformation of Nitrothiophenic Compounds
+
+## Skills
+
+**Process:** Atomic Layer Etching (ALE), Dry Etching (RIE, ICP, IBE), Wet Etching of Metals, Etch Selectivity, Anisotropy
+
+**Lithography:** EUV Lithography, Photoresists, Resist Reflow, Cleanroom Processing
+
+`;
+
+export const CINZIA_NAME = "Cinzia Chan - Resume";
+
 export const PREVIEW_SELECTOR = "#vue-smart-pages-preview";
 
 export const DEFAULT_CSS_CONTENT = `/* Backbone CSS for Resume Template 1 */

@@ -1,6 +1,6 @@
 import * as localForage from "localforage";
 import { downloadFile, uploadFile, copy, isClient } from "@renovamen/utils";
-import { DEFAULT_STYLES, DEFAULT_NAME, DEFAULT_MD_CONTENT, DEFAULT_CSS_CONTENT, VLADIMIR_MD_CONTENT, VLADIMIR_NAME } from ".";
+import { DEFAULT_STYLES, DEFAULT_NAME, DEFAULT_MD_CONTENT, DEFAULT_CSS_CONTENT, VLADIMIR_MD_CONTENT, VLADIMIR_NAME, CINZIA_MD_CONTENT, CINZIA_NAME } from ".";
 import type { ResumeStorage, ResumeStorageItem, ResumeStyles } from "~/types";
 
 const MARKDOWN_RESUME_KEY = "MARKDOWN_RESUME_data";
@@ -101,16 +101,28 @@ export const seedResumes = async () => {
   // Only seed if storage is empty (first visit)
   if (storage && Object.keys(storage).length > 0) return;
 
-  const id = "vladimir-araujo-cv";
-  const resume = {
+  const vladimirId = "vladimir-araujo-cv";
+  const vladimirResume = {
     name: VLADIMIR_NAME,
     markdown: VLADIMIR_MD_CONTENT,
     css: DEFAULT_CSS_CONTENT,
     styles: { ...DEFAULT_STYLES, fontSize: 11 },
-    update: id
+    update: vladimirId
   } as ResumeStorageItem;
 
-  const newStorage: ResumeStorage = { [id]: resume };
+  const cinziaId = "cinzia-chan-resume";
+  const cinziaResume = {
+    name: CINZIA_NAME,
+    markdown: CINZIA_MD_CONTENT,
+    css: DEFAULT_CSS_CONTENT,
+    styles: { ...DEFAULT_STYLES, fontSize: 11 },
+    update: cinziaId
+  } as ResumeStorageItem;
+
+  const newStorage: ResumeStorage = {
+    [vladimirId]: vladimirResume,
+    [cinziaId]: cinziaResume
+  };
   await localForage.setItem(MARKDOWN_RESUME_KEY, newStorage);
 };
 
